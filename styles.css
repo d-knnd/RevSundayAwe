@@ -1,0 +1,236 @@
+body {
+  background-color: #f3f3f3;/*#c8e6f5 #5ca0d3 #5e0a0a #f2eee0 #f5efef*/
+  /*background-color: #8cc7e0;/*#feffd1 #8cc7e0 #750301*/
+  color: #000; /*#2b1e0a; */
+  font-family: 'Montserrat', sans-serif;
+  /* font-size: 20px; */
+  margin: 0;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #382933;
+  font-family: 'Merriweather', serif;
+	font-size: 3rem;
+	font-weight: 900;
+	line-height: 1;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+h3 {
+  color: #382933; /*#94b4a4*/
+  font-family: 'Merriweather', serif;
+	font-size: 2rem;
+	font-weight: 900;
+	line-height: 1;
+  text-align: left;
+}
+
+p {
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+a {
+  color: #dd2c00;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+section {
+  padding: 6rem 0;
+}
+
+.container-fluid {
+  padding: 2% 5%;
+}
+
+.btn {
+  animation-delay: 0.8s;
+  background-color: #dd2c00;
+  border: 2px solid #dd2c00; /*#006a71*/
+  border-radius: 4px;
+  color: #f3f3f3;
+  display: inline-block;
+  font-family: "Muli", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin: 0;
+  padding: 12px 25px;
+  transition: 0.5s;
+  -webkit-animation-delay: 0.8s;
+}
+
+.btn:hover {
+  background: #f3f3f3; /*#006a71*/
+  color: #dd2c00;
+  text-decoration: none;
+}
+
+/***** Navigation *****/
+
+.header {
+  transition: all .6s;
+  -o-transition: all .6s;
+  -moz-transition: all .6s;
+  -webkit-transition: all .6s;
+  -ms-transition: all .6s;
+}
+
+.header .navbar-nav {
+  color: #382933;
+  font-size: 15px;
+}
+
+.header .navbar-brand {
+  color: #382933;
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-right: 0;
+  padding: 0;
+}
+
+.header .navbar-nav .nav-link {
+  color: #382933;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 2rem 0.5rem 0;
+  text-align: left;
+}
+
+.header .navbar-nav .nav-link:hover {
+  color: #dd2c00;
+}
+
+.header .navbar-nav .nav-link:active {
+  color: #dd2c00;
+  outline: 0;
+}
+
+.header .navbar-toggler {
+  border: none;
+  padding-right: 0;
+}
+
+.header .navbar-toggler:focus {
+  background: none;
+  outline: 0;
+}
+
+.top-content .carousel-item {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+}
+
+.top-content .carousel-item .carousel-caption {
+  /* text-align: center; */
+}
+
+.top-content .carousel-item .card {
+  animation-duration: .5s;
+  background-color: #f3f3f3;
+  border-top: 5px solid #dd2c00;
+  height: 25vh;
+  margin-bottom: 60px;
+  opacity: 0.9;
+  -webkit-animation-duration: .5s;
+}
+
+.top-content .carousel-item .card .card-body {
+  color: #2b1e0a;
+  font-size: 1rem;
+  padding: 0;
+}
+
+.top-content .carousel-item .card .card-footer {
+  padding: 0;
+}
+
+/***** About *****/
+
+.about {
+  height: 100%;
+}
+
+.about .button-div {
+  margin: 0;
+  padding: 0;
+}
+
+.about .button-div .btn {
+  background-color: #dd2c00;
+  /* margin: 10px 0; */
+  margin: 5% 0;
+}
+
+.about .button-div .btn:hover {
+  color: #dd2c00;
+  background-color: #f3f3f3; /*#006a71*/
+  border: 2px solid #dd2c00;
+  text-decoration: none;
+}
+
+/***** Mission *****/
+
+.missions {
+  color: #000;
+  background-color: #a4b494; /*#1dbf13 #c8e6f5 #84856D #ffffdd #d2f5e3 #94b4a4*/
+  height: 100%;
+}
+
+.missions .button-div .btn:hover {
+  background-color: #a4b494; /*#006a71*/
+}
+
+/* .missions p {
+  font-weight: 500;
+} */
+
+/*.missions h2, .content-section h2 {
+  color: #2b8f10;
+}*/
+
+/* .missions .card {
+  background-color: #feffd1;
+  border-radius: 3px;
+  border: 0;
+  box-shadow: 0px 2px 15px rgba(254, 255, 209, 0.5);
+  margin: 15px 0;
+  overflow: hidden;
+}
+
+.missions .card .card-title a {
+  color: #810000;
+} */
+
+/***** Footer *****/
+
+.footer {
+  background-color: #382933;
+  font-size: 1rem;
+  height: 100%;
+  padding: 3rem 0;
+  /* background-color: #92817a #7d0633; */
+  /* opacity: 0.8; */
+}
+
+.footer .text-muted {
+  color: #f3f3f3;
+}
+
+.footer h3, .footer h4 {
+  color: #f3f3f3;
+}
+
+.footer a {
+  color: #dd2c00;
+  text-decoration: none;
+}
